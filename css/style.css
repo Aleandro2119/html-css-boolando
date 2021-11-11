@@ -23,7 +23,7 @@
     background-color: #00875A;
 }
 
-/*First section*/
+/*First and Second section*/
 article{
     height: 500px;
     width: calc(100% / 3 - 4px);
@@ -33,8 +33,10 @@ article{
     background-position: central;
     background-repeat: no-repeat;
     position: relative;
+    cursor: pointer;
 }
 
+/*Img-Item*/
 .article.first-item{
     background-image: url("../img/1.webp");
 }
@@ -59,6 +61,7 @@ article{
     background-image: url("../img/6.webp");
 }
 
+/*Discount*/
 .discount{
     color: white;
     position: absolute;
@@ -76,6 +79,49 @@ article{
     padding: 2px;
     font-size: 10px;
 }
+
+
+.article .like{
+    color: black;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    background-color: white;
+    border: 1px solid white;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 1.2em;
+    
+}
+
+/*Selector hover*/
+
+.article .like:hover{
+    color: red;
+}
+
+.article.first-item:hover{
+    background-image: url("../img/1b.webp");
+}
+
+.article.second-item:hover{
+    background-image: url("../img/2b.webp");
+}
+.article.third-item:hover{
+    background-image: url("../img/3b.webp");
+}
+.article.four-item:hover{
+    background-image: url("../img/4b.webp");
+}
+.article.five-item:hover{
+    background-image: url("../img/5b.webp");
+}
+.article.six-item:hover{
+    background-image: url("../img/6b.webp");
+}
+
 
 
 
