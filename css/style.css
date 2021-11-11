@@ -1,0 +1,46 @@
+/*Generics*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Utils*/
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    height: 500px;
+}
+
+.red{
+    background-color: red;
+}
+
+/*Section*/
+.margin{
+    margin: 30px;
+}
+
+/*Products*/
+.article{
+    background-color: gray;
+    height: 500px;
+    width: calc(100% / 3 - 4px);
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.article.first-item{
+    background-image: url("../img/1.webp");
+}
+
+.article.second-item{
+    background-image: url("../img/2.webp");
+}
+
+.article.third-item{
+    background-image: url("../img/3.webp");
+}
