@@ -1,4 +1,4 @@
-/*Generics*/
+/*General*/
 *{
     margin: 0;
     padding: 0;
@@ -7,30 +7,32 @@
 
 /*Utils*/
 .container{
-    width: 1000px;
+    max-width: 1000px;
     margin: 0 auto;
     height: 500px;
 }
-
-.red{
-    background-color: red;
-}
-
-/*Section*/
-.margin{
+.row{
     margin: 30px;
 }
 
-/*Products*/
-.article{
-    background-color: gray;
+.bg-red{
+    background-color: red;
+}
+
+.bg-green{
+    background-color: #00875A;
+}
+
+/*First section*/
+article{
     height: 500px;
     width: calc(100% / 3 - 4px);
     display: inline-block;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-color: #666;
     background-size: cover;
-    
+    background-position: central;
+    background-repeat: no-repeat;
+    position: relative;
 }
 
 .article.first-item{
@@ -44,3 +46,36 @@
 .article.third-item{
     background-image: url("../img/3.webp");
 }
+
+.article.four-item{
+    background-image: url("../img/4.webp");
+}
+
+.article.five-item{
+    background-image: url("../img/5.webp");
+}
+
+.article.six-item{
+    background-image: url("../img/6.webp");
+}
+
+.discount{
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    padding: 2px;
+    font-size: 10px;
+}
+
+.article.type-product{
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+    padding: 2px;
+    font-size: 10px;
+}
+
+
+
